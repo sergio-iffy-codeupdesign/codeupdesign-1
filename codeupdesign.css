@@ -49,3 +49,11 @@ img {
 #visualz {
    font-size: 3.5em;
 }
+
+.col {
+    border: 1px solid white;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
