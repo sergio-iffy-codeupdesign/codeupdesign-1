@@ -31,3 +31,21 @@ img {
     width: 105px;
     height: 105px;
 }
+
+#navbarNavAltMarkup {
+    display: flex;
+    justify-content: center;
+    background-color: #E6E6E6;
+    padding: 0;
+    margin:0;
+    font-size: 1.45em;
+}
+
+#navbar {
+    background-color: #E6E6E6;
+    padding: 0;
+}
+
+#visualz {
+   font-size: 3.5em;
+}
