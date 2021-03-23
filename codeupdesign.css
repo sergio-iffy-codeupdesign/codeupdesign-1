@@ -1,1 +1,33 @@
-#logo
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E6E6E6;
+    padding: 0;
+    font-family: "Abel", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Anton", sans-serif;
+}
+
+.image {
+    height: 4.5em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+    background-color: #F0F0F0;
+}
+
+#codeup {
+    margin-top: 1em;
+    font-size: 3em;
+}
+
+img {
+    width: 105px;
+    height: 105px;
+}
