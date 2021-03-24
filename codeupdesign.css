@@ -66,3 +66,87 @@ img {
     width: 100px;
     border-radius: 50%;
 }
+
+#circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 105px;
+    width: 105px;
+    color: white;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#circles1 {
+    display: flex;
+}
+
+#circles2{
+    display: flex;
+}
+
+.circle01 {
+    background-color: #E6563B;
+}
+
+.circle02 {
+    background-color: #DEA03D;
+}
+
+.circle03 {
+    background-color: #7CB06C;
+}
+
+.circle04 {
+    background-color: #00ABA9;
+}
+
+#circles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#ipad {
+    width: 100%;
+    height: 100%;
+    border: 10px solid lightgray;
+    border-radius: 10px;
+}
+
+.jumbotron {
+    background-color: #E6E6E6;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.icon {
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+
+#icon1 {
+    background-color: #E6563B;
+}
+
+#icon2 {
+    background-color: #DEA03D;
+}
+
+#icon3 {
+    background-color: #7CB06C;
+}
+
+#icon4 {
+    background-color: #00ABA9;
+}
