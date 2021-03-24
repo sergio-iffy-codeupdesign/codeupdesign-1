@@ -16,14 +16,14 @@
 </head>
 <body>
 <!-- top of page: logo and navbar below-->
-    <div>
-        <div class="image">
+<div class="container">
+    <div class="row">
+        <div class="image col">
             <img src="assets/logo.png" alt="logo">
         </div>
         <div class="container">
                 <p class="h1 text-center" id="codeup">codeup design</p>
         </div>
-
         <nav class="navbar navbar-expand-sm navbar-light bg-light mb-5" id="navbar">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
@@ -35,7 +35,7 @@
             </div>
         </nav>
     </div>
-
+</div>
 <!--    header: visual design&web development etc below-->
 
     <h1 class="text-center" id="visualz">VISUAL DESIGN & WEB DEVELOPMENT</h1>
@@ -55,7 +55,7 @@
     </div>
     <br>
     <br>
-<!--   selected work and pictures/featured project -->
+<!--   selected work and pictures/featured project, im using the d-none way to make stuff disappear and popup at the breakpoints we want them to -->
     <div class="container"><hr></div>
     <p class="h4 text-center mt-5 mb-4">SELECTED WORK</p>
 
@@ -74,7 +74,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="d-none d-sm-inline-block">
         <div class="jumbotron jumbotron-fluid mb-0">
             <div class="container">
                 <img src="assets/images/macbook.jpg" alt="macbook" id="macbook">
@@ -89,7 +89,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="d-none d-sm-inline-block">
         <div class="jumbotron jumbotron-fluid mb-0 d-xs-none">
             <div class="container">
                 <img src="assets/images/man.jpg" alt="man" id="man">
@@ -104,7 +104,7 @@
         </div>
     </div>
 
-    <div>
+    <div class="d-none d-sm-inline-block">
         <div class="jumbotron jumbotron-fluid mb-0 d-xs-none">
             <div class="container">
                 <img src="assets/images/security.jpg" alt="security" id="security">
