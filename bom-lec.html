@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOM Lecture</title>
+</head>
+<body>
+<script>
+"use strict"
+
+var count = 0;
+var max = 10;
+var interval = 5000; //interval == five second (ms)
+
+var intervalId=setInterval(function(){
+    if (count >= max) {
+        console.log("All done");
+        clearInterval(intervalId)
+    } else {
+        count++;
+        console.log("Repeating this line; we're on interval number: " + count);
+        count++;
+    }
+
+    }, interval)
+
+ // return an id for us to use later
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
